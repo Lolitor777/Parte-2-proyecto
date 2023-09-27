@@ -27,8 +27,6 @@ const avion1 = new aviones('AirBus', 'rojo', '220km/h');
 console.log(avion1.AjusteDePotencia);
 console.log(avion1.GuardarRuedas);
 
-
-
 class avionCombate extends aviones{
     constructor(marca, color, velocidadDespegue, artilleria){
         super(marca, color, velocidadDespegue);
